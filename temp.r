@@ -1,5 +1,5 @@
 y <- c(1, 2, 4, 3, 7, 6, 1, 1, 2, 7, 6, 2, 2)
 x <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 9,10,10,11)
-plot(x, y, xlab = "Valori asse X", ylab = "Valori asse Y", main = "Grafico andata vendite Macca Computer")
+plot(x, y, xlab = "Valori asse X", ylab = "Valori asse Y", main = "Prova titolo plotter in R")
 lines(x, y, col = "red", lwd = 2)
-title(sub = expression(paste("Dati generati automaticamente da ", italic("Macca Computer "), underline("Plot System"))))
+title(sub = expression(paste("Footer con testo in ", italic("corsivo "),"e scritte ", underline("sottolineate"))))
